@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "skills": {
+    "langgraph": {
+      "source": "smithery.ai",
+      "sourceType": "well-known",
+      "computedHash": "e64c4c4fdf8ff727e8df9a018fb8c51a2a2667d9421d5075255052908ad07aad"
+    },
+    "langgraph-docs": {
+      "source": "langchain-ai/deepagents",
+      "sourceType": "github",
+      "computedHash": "36357163de1472e570655b85879e60c228d97329ed2600fc042a7ac87cf54a5d"
+    },
+    "langgraph-fundamentals": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "computedHash": "43a226ecc442ba6d6091eea39cf587a7583fa532e73db58259e35b1393c31418"
+    }
+  }
+}
