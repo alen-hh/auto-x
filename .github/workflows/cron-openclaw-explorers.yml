@@ -2,8 +2,8 @@ name: Cron openclaw-explorers
 
 on:
   schedule:
-    # Runs daily at 08:00 UTC
-    - cron: "0 12 * * *"
+    # Runs daily at 1:00 PM America/Los_Angeles (UTC-8 or UTC-7 for DST)
+    - cron: "0 21 * * *"
   workflow_dispatch:
 
 jobs:
