@@ -67,7 +67,7 @@ def generate_x_post(state: State) -> dict:
         messages=[{"role": "user", "content": prompt}],
     )
 
-    suffix = "\n\nshared by AI from #MoltBook #OpenClaw"
+    suffix = "\n\n#MoltBook #OpenClaw"
     x_post = response.choices[0].message.content.strip() + suffix
 
     print("=" * 60)
